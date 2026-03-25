@@ -1,0 +1,46 @@
+/** NISAX Styling **/
+
+/* Global styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    font-family: Arial, sans-serif;
+}
+
+/* Accents */
+a {
+    color: #FFD700; /* Gold color for links */
+}
+
+header, footer {
+    border-bottom: 1px solid #FFD700; /* Gold accent for header and footer */
+}
+
+/* Buttons */
+.button {
+    background-color: #FFD700;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Component Styles */
+.header {
+    padding: 20px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+
+/* More component styles can be added here */
