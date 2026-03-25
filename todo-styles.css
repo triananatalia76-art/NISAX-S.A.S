@@ -1,0 +1,39 @@
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.add-todo {
+    margin-top: 20px;
+}
+
+.add-todo input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.add-todo button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-todo button:hover {
+    background-color: #0056b3;
+}
